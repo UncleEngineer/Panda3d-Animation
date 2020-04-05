@@ -10,7 +10,7 @@ class MyApp(ShowBase):
     ShowBase.__init__(self)
 
     # Load the environment model.
-    self.box = Actor("Box2.egg")
+    self.box = Actor("Box.egg")
     
     
     # Reparent the model to render.
